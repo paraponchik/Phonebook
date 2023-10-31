@@ -1,9 +1,11 @@
-import SignIn from './pages/Signin.js';
+import Navbar from './components/Navbar.js';
+import AppDrawer from './components/AppDrawer';
 
   function App() {
   return (
-    <div className="App">
-      <SignIn />
+    <div>
+      <Navbar />
+      <AppDrawer />
     </div>
   );
 }
