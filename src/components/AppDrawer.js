@@ -1,10 +1,10 @@
 import { Drawer, MenuItem } from '@mui/material';
 import React from 'react';
 
-export const AppDrawer = (props) => {
+export default function AppDrawer(){
     return (
         <Drawer 
-            open={true}
+            open={false}
         >
             <MenuItem>Account</MenuItem>
             <MenuItem>Account</MenuItem>
